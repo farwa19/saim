@@ -2,9 +2,8 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-
 # Load the data
-data = pd.read_csv('/workspaces/project/Saim/StudentsPerformance (1).csv')
+data = pd.read_csv('kl.csv')
 
 df = pd.DataFrame(data)
 
